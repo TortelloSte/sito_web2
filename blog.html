@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefano Perdicchia</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Unbounded:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+                <nav>
+                    <a href="index.html"><img src="images/logo.png"></a>
+                        <div class="nav-links" id="navLinks">
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul>
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">ABOUT</a></li>
+                                <li><a href="">COURSE</a></li>
+                                <li><a href="">BLOG</a></li>
+                                <li><a href="">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>Our certificate & Online programs for 2023</h1>
+        </section>
+
+<!----- BLOG PAGE CONTENT------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/sunset.jpg">
+            <h2> Our certificate & Online Program For 2021</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum exercitationem inventore rerum delectus in voluptates velit? Pariatur, repellat quidem? Quia facilis eius commodi voluptates odio est sequi deleniti velit! Esse.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus aliquam deserunt id ullam perferendis, eligendi nostrum dolorem, illo iusto doloremque earum error? Nemo voluptatem molestias, neque eaque saepe est?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate perferendis nostrum veniam expedita nam? Nostrum ullam, dolor quae voluptatibus aliquid eveniet deserunt. Ipsa error enim minus sequi assumenda quis!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores architecto, placeat omnis ab minus iure quasi eos reprehenderit aliquam libero accusamus repudiandae molestiae veritatis, mollitia beatae. Est, doloremque iusto!</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter email">
+                <textarea rows="5" placeholder="Your coment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST comment</button>
+            </form>
+        </div>
+        
+        
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>1</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>cose</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Deep Learning</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Economia</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Diritto</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>A casissimo</span>
+                <span>7</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!---fondo pagina------->
+
+<section class="footer">
+    <h4>about us</h4>
+    <p>ciao ciao ciao cioiafdshuidfngiuerngfiuner guerh geunrgeriug herg</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by stefano perdicchias </p>
+</section>
+<!-----Javascript per il menu a tendina nella versione mobile----->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+
+    </body>
+</html>
